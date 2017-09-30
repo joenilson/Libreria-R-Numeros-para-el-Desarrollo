@@ -25,7 +25,7 @@ iadbstats <- function(country="ALL",frequency="year",indicatorcode="ALL"){
   urlmeta <- "datasitedata?"
   searchcountry <- paste0("countrycode=",country)
   searchfrequency <- paste0("&frequency=",frequency)
-  searchLanguage <- "&languagecode=EN"
+  searchLanguage <- "&languagecode=ES"
   searchIndicator <- paste0("&indicatorcode=",indicatorcode)
   
   urls <- iadburls()
