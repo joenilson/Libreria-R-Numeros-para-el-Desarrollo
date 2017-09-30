@@ -17,7 +17,7 @@ iadbmsearch <- function(value = 'ALL'){
   urlmeta = "metadata/indicator"
   searchType = "?searchtype=code"
   searchvalue = paste0("&searchvalue=",value)
-  searchLanguage = "&languagecode=EN"
+  searchLanguage = "&languagecode=ES"
   
   urls = iadburls()
   
